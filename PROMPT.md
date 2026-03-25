@@ -1,4 +1,5 @@
-<!-- Prompt1 -->
+## Prompt1
+```bash
 Goal: Implement generic data struct TopK
 Input: 
     - type T generic is item on heap data
@@ -14,10 +15,12 @@ Constraints: passing test cases -> write test file
 7. Negative num: case 3 =3 and data = [-1, -5, -3, -2] and max top k -> [-1, -2, -3]
 8. Custome struct: T is struct type
 9. Large input: case k = 2, data from 0 -> 1000000 and max top k -> [1000000, 999999]
+```
 
 
 
-<!-- Prompt2 -->
+## Prompt2
+```bash
 Goal: Streaming process csv file and aggregate data
 Context: large csv file ~1GB, good performance, low memory
 Input: 
@@ -66,3 +69,6 @@ Steps:
         CPA: float
     - Result for topCTR: top10_ctr.csv
     - Result for topCPA: top10_cpa.csv
+```
+
+### There are also a few other prompts, but their main purpose is to fix bugs and optimize further, which I won't list here. But basically the 2 prompts above are enough to build the code
