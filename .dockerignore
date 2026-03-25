@@ -1,0 +1,11 @@
+*.csv
+result/
+test_data.csv
+.git
+.gitignore
+.DS_Store
+*.out
+*.test
+.vscode
+.idea
+node_modules
